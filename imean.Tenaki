@@ -1,3 +1,9 @@
+-- // C Tool Giver \\ --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/C/main/Tool",true))()
+
+-- // C Tool Fixing To Lock On Player \\ --
+
 getgenv().RecurringPoint = "UpperTorso"
 getgenv().Hitbox = "UpperTorso"
 getgenv().Keybind = "c"
@@ -10,8 +16,7 @@ getgenv().FirstPerson = true
 getgenv().ThirdPerson = true
 getgenv().TeamCheck = false
 getgenv().Enabled = true
- 
- 
--- // main script use with silent aim / / -- 
- 
+
+-- // Main Script \\ -- 
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()
